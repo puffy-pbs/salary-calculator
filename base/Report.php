@@ -1,6 +1,5 @@
 <?php
 
-
 class Report
 {
     public $reportItems;

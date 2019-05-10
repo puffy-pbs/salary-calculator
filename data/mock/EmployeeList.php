@@ -1,6 +1,5 @@
 <?php
 
-
 class EmployeeList implements IList
 {
     /**

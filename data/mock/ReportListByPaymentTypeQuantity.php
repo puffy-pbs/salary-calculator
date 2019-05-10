@@ -1,6 +1,5 @@
 <?php
 
-
 class ReportListByPaymentTypeQuantity extends ReportList
 {
 

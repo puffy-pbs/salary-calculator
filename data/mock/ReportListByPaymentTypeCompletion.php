@@ -1,6 +1,5 @@
 <?php
 
-
 class ReportListByPaymentTypeCompletion extends ReportList
 {
     public function __construct()

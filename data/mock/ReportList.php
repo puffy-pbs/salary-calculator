@@ -1,6 +1,5 @@
 <?php
 
-
 abstract class ReportList implements IList
 {
     protected $taskList;

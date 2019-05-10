@@ -1,9 +1,7 @@
 <?php
 
-
 class ByCompletedWorkSalaryCalculator extends SalaryCalculator
 {
-
     public function __construct(array $reports)
     {
         parent::__construct($reports);
@@ -44,5 +42,4 @@ class ByCompletedWorkSalaryCalculator extends SalaryCalculator
 
         return $salariesByTask;
     }
-
 }

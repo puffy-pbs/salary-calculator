@@ -1,6 +1,5 @@
 <?php
 
-
 class ByQuantitySalaryCalculator extends SalaryCalculator
 {
     /**
@@ -44,6 +43,4 @@ class ByQuantitySalaryCalculator extends SalaryCalculator
 
         return $salariesByTask;
     }
-
-
 }

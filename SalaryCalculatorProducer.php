@@ -1,8 +1,12 @@
 <?php
 
-
 class SalaryCalculatorProducer
 {
+    /**
+     * @desc create new instance
+     * @param array $reports
+     * @return SalaryCalculator
+     */
     public static function create(array $reports): SalaryCalculator
     {
         if (count(self::checkForSame($reports)) <> 1) {

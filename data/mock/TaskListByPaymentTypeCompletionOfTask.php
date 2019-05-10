@@ -1,6 +1,5 @@
 <?php
 
-
 class TaskListByPaymentTypeCompletionOfTask extends TaskList
 {
     /**
