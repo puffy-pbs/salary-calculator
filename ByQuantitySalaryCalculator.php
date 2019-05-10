@@ -17,6 +17,7 @@ class ByQuantitySalaryCalculator extends SalaryCalculator
     /**
      * @desc calculate the salaries for each employee
      * @param array $totalWorkByTask
+     * @param array $taskPaymentMap
      * @return array
      */
     protected function calculate(array $totalWorkByTask, array $taskPaymentMap): array
